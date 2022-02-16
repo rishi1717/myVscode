@@ -35,6 +35,7 @@
 
 .subnav{
     background-color: #25252B !important;
+    margin-top: 3.5rem;
 }
 
 .textsection{
@@ -77,6 +78,63 @@
 
 .section5 a{
     text-decoration: none;
+    color: #2974e6;
 }
 
+.section7 a{
+    text-decoration: none;
+    color: #2974e6;
+}
 
+.paragraph{
+    line-height: 2rem;
+}
+
+.footer{
+    background-color: #333333;
+    color: #F5F5F5;
+    width: 100.9%;
+}
+
+.footelement{
+    font-size: 0.8em;
+    padding: 0.6rem;
+}
+
+.footelement a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.footelement button{
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 2px;
+}
+
+.x:hover{
+    color: #2974e6;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 990px) {
+    .footer {
+      width: 102%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer {
+      width: 103%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .hidevs {
+      display: none;
+    }
+}
+
+.text-lightgrey{
+    color: #b3b3b3 !important;
+}
