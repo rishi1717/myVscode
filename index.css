@@ -1,0 +1,82 @@
+.body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.fs-xs{
+    font-size: 0.8rem;
+}
+
+.bg-mybag{
+    background-color: #2C2C32 !important;
+}
+
+.bg-mybag a{
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+::placeholder{
+    color: rgb(211, 211, 211) !important;
+}
+
+@media only screen and (max-width: 990px) {
+    .searchdiv {
+      display: none;
+    }
+}
+
+.navbar-text a{
+    color: #2974e6 !important;
+    text-decoration: none;
+}
+
+.subnav{
+    background-color: #25252B !important;
+}
+
+.textsection{
+    border-radius: 10px;
+}
+
+.screenshot{
+    height: auto;
+    width: 100%;
+}
+
+.size{
+    font-size: 4rem;
+}
+
+.section3{
+    background-color: #F5F5F5;
+}
+
+.testimg1{
+    width: 60px;
+    border-radius: 2em;
+}
+
+.testname{
+    font-weight: 700;
+}
+
+.testcom{
+    font-weight: 100;
+}
+
+.slide{
+    padding: 5rem 3rem;
+}
+
+.section4{
+    width: 99%;
+}
+
+.section5 a{
+    text-decoration: none;
+}
+
+

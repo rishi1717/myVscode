@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myVscode</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>   
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-mybag px-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img width="22px" src="/img/logo.png" alt=""> Visual Studio Code</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">Updates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">API</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">Extensions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">Learn</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+          <form class="d-lg-flex searchdiv">
+            <div class="bg-secondary px-2 d-flex align-items-center">
+                <img height="20px" src="https://code.visualstudio.com/assets/icons/search.svg" alt="">
+                <input class="form-control me-2 bg-secondary btn-outline-secondary" type="search" placeholder="Search Docs" aria-label="Search">
+            </div>
+          
+          <button class="btn btn-primary" type="submit"><img height="20px" src="https://code.visualstudio.com/assets/icons/download.svg" alt=""> Download</button>
+        </form>
+        </div>
+    </nav>
+
+    <nav class="subnav navbar navbar-light">
+        <div class="container-fluid justify-content-center">
+          <span class="navbar-text text-secondary text-center">
+            <a href="">Version 1.64</a> is now available! Read about the new features and fixes from January.
+          </span>
+        </div>
+    </nav>
+
+    <section class="section1 bg-mybag p-5">
+        <div class="row text-light gap-5">
+          <div class="col-md-4 justify-content-center text-center">
+            <h1>Code editing. <strong>Redefined.</strong></h1>
+            <div class="lead">
+              <p class="text-secondary">Free. Built on open source. Runs everywhere.</p>
+            </div>
+            
+            <div class="btn-group">
+              <button class="btn btn-primary btn-lg" type="button">
+                <div class="fw-bolder">Download for Windows</div>
+                <div class="fs-6 fw-light">Stable Build</div>
+              </button>
+              <button type="button" class="btn btn-lg btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li class="d-flex justify-content-between">
+                  <div class="m-3 col-sm-3 fw-bold">macOS</div>
+                  <div class="m-3 col-sm-3">Universal</div>
+                  <div class="m-3 col-sm-3"><a href="#" ><i class="bi bi-download"></i></a></div>
+                </li>
+                <li class="d-flex justify-content-between">
+                  <div class="m-3 col-sm-3 fw-bold">Windows x64</div>
+                  <div class="m-3 col-sm-3">User Installer</div>
+                  <div class="m-3 col-sm-3"><a href="#" ><i class="bi bi-download"></i></a></div>
+                </li>
+                <li class="d-flex justify-content-between">
+                  <div class="m-3 col-sm-3 fw-bold">Linux x64</div>
+                  <div class="m-3 col-sm-3">.deb<p>.rpm</p></div>
+                  <div class="m-3 col-sm-3"><a href="#" ><i class="bi bi-download"></i></a></div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="textsection mt-3 subnav p-2 text-secondary"><a href="">Other platforms</a> and<a href=""> Insiders Edition</a></div>
+
+            <div class="mt-4">
+              <p class="fw-light fs-xs text-secondary">By using VS Code, you agree to its <a href="">license and privacy statement</a> .</p>
+            </div>
+
+          </div>
+
+          <div class="col-md-7">
+            <img class="screenshot" src="img/screenshot.png" alt="">
+          </div>
+        </div>
+    </section>
+
+    <div class="section2 px-5">
+        <div class="row justify-content-center">
+          <div class="col-sm-5 col-md-3 text-center">
+            <div class="size">
+              <i class="bi bi-lightbulb size"></i>
+            </div>
+            <div>
+              Intellisense
+            </div>
+          </div>
+          <div class="col-sm-5 col-md-3 text-center">
+            <div class="size">
+              <i class="bi bi-play"></i>
+            </div>
+            <div>
+              Run and  Debug
+            </div>
+          </div>
+          <div class="col-sm-5 col-md-3 text-center">
+            <div class="size">
+              <i class="bi bi-git"></i>
+            </div>
+            <div>
+              Built in Git
+            </div>
+          </div>
+          <div class="col-sm-5 col-md-3 text-center">
+            <div class="size">
+              <i class="bi bi-puzzle"></i>
+            </div>
+            <div>
+              Extensions
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="section3 mt-3">
+
+        <div id="carouselExampleControls" class="carousel px-5 slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <div class="d-flex row">
+                <div class="testimony row col-md-4 justify-content-end mt-2">
+                  <div class="testimg col-md-3">
+                    <img class="testimg1" src="/img/user1.jpg" alt="">
+                  </div>
+                  <div class="testdet col-md-8">
+                    <div class="testname">
+                      una kravertz <small class="text-muted">@una</small>
+                    </div>
+                    <div class="testcom">
+                      VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                    </div>
+                  </div>
+                  </div>
+        
+                  <div class="testimony row col-md-4 justify-content-end mt-2">
+                    <div class="testimg col-md-3">
+                      <img class="testimg1" src="/img/user1.jpg" alt="">
+                    </div>
+                    <div class="testdet col-md-8">
+                      <div class="testname">
+                        una kravertz <small class="text-muted">@una</small>
+                      </div>
+                      <div class="testcom">
+                        VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="testimony row col-md-4 justify-content-end mt-2">
+                    <div class="testimg col-md-3">
+                      <img class="testimg1" src="/img/user1.jpg" alt="">
+                    </div>
+                    <div class="testdet col-md-8">
+                      <div class="testname">
+                        una kravertz <small class="text-muted">@una</small>
+                      </div>
+                      <div class="testcom">
+                        VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex row">
+                <div class="testimony row col-md-4 justify-content-end mt-2">
+                  <div class="testimg col-md-3">
+                    <img class="testimg1" src="/img/user1.jpg" alt="">
+                  </div>
+                  <div class="testdet col-md-8">
+                    <div class="testname">
+                      una kravertz <small class="text-muted">@una</small>
+                    </div>
+                    <div class="testcom">
+                      VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                    </div>
+                  </div>
+                  </div>
+        
+                  <div class="testimony row col-md-4 justify-content-end mt-2">
+                    <div class="testimg col-md-3">
+                      <img class="testimg1" src="/img/user1.jpg" alt="">
+                    </div>
+                    <div class="testdet col-md-8">
+                      <div class="testname">
+                        una kravertz <small class="text-muted">@una</small>
+                      </div>
+                      <div class="testcom">
+                        VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="testimony row col-md-4 justify-content-end mt-2">
+                    <div class="testimg col-md-3">
+                      <img class="testimg1" src="/img/user1.jpg" alt="">
+                    </div>
+                    <div class="testdet col-md-8">
+                      <div class="testname">
+                        una kravertz <small class="text-muted">@una</small>
+                      </div>
+                      <div class="testcom">
+                        VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex row">
+                <div class="testimony row col-md-4 justify-content-end mt-2">
+                  <div class="testimg col-md-3">
+                    <img class="testimg1" src="/img/user1.jpg" alt="">
+                  </div>
+                  <div class="testdet col-md-8">
+                    <div class="testname">
+                      una kravertz <small class="text-muted">@una</small>
+                    </div>
+                    <div class="testcom">
+                      VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                    </div>
+                  </div>
+                  </div>
+        
+                  <div class="testimony row col-md-4 justify-content-end mt-2">
+                    <div class="testimg col-md-3">
+                      <img class="testimg1" src="/img/user1.jpg" alt="">
+                    </div>
+                    <div class="testdet col-md-8">
+                      <div class="testname">
+                        una kravertz <small class="text-muted">@una</small>
+                      </div>
+                      <div class="testcom">
+                        VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="testimony row col-md-4 justify-content-end mt-2">
+                    <div class="testimg col-md-3">
+                      <img class="testimg1" src="/img/user1.jpg" alt="">
+                    </div>
+                    <div class="testdet col-md-8">
+                      <div class="testname">
+                        una kravertz <small class="text-muted">@una</small>
+                      </div>
+                      <div class="testcom">
+                        VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+    </div>
+
+    <div class="section4">
+        <div class="row d-flex justify-content-evenly py-5 p-3">
+          <div class="col-md-5 text-sm-center">
+            <img class="img-fluid" src="/img/intelli.svg" alt="">
+          </div>
+          <div class="col-md-5">
+            <div class="fs-3">
+              Meet IntelliSense.
+            </div>
+            <div class="mt-4 fw-light fs-6">
+              Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-evenly py-5 section3 p-3">
+          <div class="col-md-5">
+            <div class="fs-3">
+              Print statement debugging is a thing of the past.
+            </div>
+            <div class="mt-4 fw-light fs-6">
+              Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.
+            </div>
+          </div>
+
+          <div class="col-md-5 text-sm-center mt-5">
+            <img class="img-fluid" src="/img/debug.svg" alt="">
+          </div>
+         
+        </div>
+
+        <div class="row d-flex justify-content-evenly py-5 p-3">
+          <div class="col-md-5 text-sm-center">
+            <img class="img-fluid" src="/img/git.svg" alt="">
+          </div>
+          <div class="col-md-5">
+            <div class="fs-3">
+              Git commands built-in.
+            </div>
+            <div class="mt-4 fw-light fs-6">
+              Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-evenly py-5 section3 p-3">
+          <div class="col-md-5">
+            <div class="fs-3">
+              Deploy with confidence and ease
+            </div>
+            <div class="mt-4 fw-light fs-6">
+              With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, all from within VS Code.
+            </div>
+          </div>
+
+          <div class="col-md-5 text-sm-center mt-5">
+            <img class="img-fluid" src="/img/deploy.svg" alt="">
+          </div>
+         
+        </div>
+
+
+    </div>
+
+    <div class="section5 p-5 ">
+        <div class="fs-3 fw-light text-center py-2">VS Code for</div>
+
+        <div class="vsfor row mx-5 py-1 p-sm-4">
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/js.svg" alt=""> JavaScript</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/python.svg" alt=""> Python</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/java.svg" alt=""> Java</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/markdown.svg" alt=""> Markdown</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/typescript.svg" alt=""> TypeScript</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/cpp.svg" alt=""> C/C++</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/json.svg" alt=""> Json</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/powershell.svg" alt=""> Powershell</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/html.svg" alt=""> HTML/CSS</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/csharp.svg" alt=""> C#</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/php.svg" alt=""> PHP</div>
+          <div class="col-sm-6 col-md-3 col-lg-2 p-3"> <img src="/img/yaml.svg" alt=""> YAML</div>
+        </div>
+
+        <div class="fs-3 fw-light text-center"><a href="#" class="fs-5">and many more...</a></div>
+
+        <div class="text-center">
+          <button type="button" class="btn btn-primary btn-lg mt-5"> Get Started Now </button>
+        </div>
+
+        
+
+    </div>
+      
+    <div class="section6">
+      <div class="row d-flex justify-content-evenly p-4">
+        <div class="col-md-3">
+
+          <div class="6logo text-center">
+            <img width="35%" src="/img/windows-logo.png" alt="">
+          </div>
+
+          <div class="text-center">
+            <button type="button" class="btn btn-primary btn-lg mt-3"> Windows <p class="fw-light fs-6">Debian,Ubuntu</p></button>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="6logo text-center">
+            <img width="28%" src="/img/linux-logo.png" alt="">
+          </div>
+
+          <div class="text-center">
+            <button type="button" class="btn btn-primary btn-lg mt-3"> Linux <p class="fw-light fs-6">Debian,Ubuntu</p></button>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="6logo text-center">
+            <img width="28%" src="/img/apple-logo.svg" alt="">
+          </div>
+
+          <div class="text-center">
+            <button type="button" class="btn btn-primary btn-lg mt-3"> Mac <p class="fw-light fs-6">macOS 10.11+</p></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
