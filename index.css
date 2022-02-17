@@ -36,6 +36,13 @@
 .subnav{
     background-color: #25252B !important;
     margin-top: 3.5rem;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.section1{
+    margin-left: -12px;
+    margin-right: -12px;
 }
 
 .textsection{
@@ -93,7 +100,6 @@
 .footer{
     background-color: #333333;
     color: #F5F5F5;
-    width: 100.9%;
 }
 
 .footelement{
@@ -115,18 +121,6 @@
 .x:hover{
     color: #2974e6;
     cursor: pointer;
-}
-
-@media only screen and (max-width: 990px) {
-    .footer {
-      width: 102%;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .footer {
-      width: 103%;
-    }
 }
 
 @media only screen and (max-width: 380px) {
